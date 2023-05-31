@@ -193,7 +193,6 @@ body {
 }
 
 /* Главная секция 1-й страницы */
-
 .hero {
     max-width: 1440px;
     margin: 0 auto;
@@ -294,7 +293,6 @@ body {
 
 
  /* We doing */
- 
 .we-doing-section {
     padding-bottom: 120px;
 }
