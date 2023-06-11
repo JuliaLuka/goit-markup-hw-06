@@ -755,6 +755,11 @@ body {
     margin-bottom: 8px;
 }
 
+.modal-form-input-wrap {
+    position: relative;
+
+}
+
 .modal-form-input-desc {
     display: block;
     margin-bottom: 4px;
@@ -776,5 +781,10 @@ body {
 }
 
 .modal-form-input-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    
     fill: var(--navy-blue);
 }
