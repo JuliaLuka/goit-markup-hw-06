@@ -375,14 +375,16 @@
                 </div>
 
                 <div class="footer-modal-form-wrap">
+                    <p class="footer-modal-form-text">Subscribe</p>
                     <form class="footer-modal-form">
-                        <p class="footer-modal-form-text">Subscribe</p>
-                        <input type="email" name="user-email" class="footer-modal-form-input" required>
-                        <button type="button" class="footer-modal-btn">Subscribe
-                            <svg class="footer-modal-form-input-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-modal-telegram-icon"></use>
-                            </svg>
-                        </button>
+                        <label for="" class="footer-modal-form-field">
+                            <input type="email" name="email" class="footer-modal-form-input" placeholder="E-mail" required>
+                            <button type="submit" class="footer-modal-btn">Subscribe
+                                <svg class="footer-modal-form-input-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-modal-telegram-icon"></use>
+                                </svg>
+                            </button>
+                        </label>
                     </form>
                 </div>
             
@@ -443,8 +445,8 @@
                 </div>
                 <div class="modal-form-check-desc-wrap"></div>
                 <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="modal-form-check hidden-title">
-                <label for="user-privacy" class="modal-form-check-desc"
-                >I accept the terms and conditions of the&nbsp;<a href="">Privacy Policy</a>
+                <label for="user-privacy" class="modal-form-check-desc">
+                    I accept the terms and conditions of the&nbsp;<a href="">Privacy Policy</a>
                 </label>
                 <button type="submit" class="modal-form-submit">Send</button>
             </form>
