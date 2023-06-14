@@ -617,7 +617,9 @@ body {
     color: var(--cloud);
     max-width: 264px;
 }
-
+.footer-wrap-center {
+    margin-right: 80px;
+}
 .footer-wrap-center .footer-text {
     margin-bottom: 16px;
 
