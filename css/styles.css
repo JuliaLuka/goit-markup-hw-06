@@ -898,9 +898,21 @@ body {
 .modal-form-comment:focus {
     border-color: var(--iris);
 }
-.modal-form-check-desc-wrap {
-    margin-bottom: 24px;
+
+
+.modal-form-check-desc {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+
+    color: var(--light-slate);
 }
+/* .....................MODAL CHECK........................ */
+.modal-form-check-desc {
+    display: flex;
+    align-items: center;
+}
+
 .user-privacy-wrap {
     display: inline-flex;
     align-items: center;
@@ -918,34 +930,17 @@ body {
     fill: transparent;
 
 }
-.modal-form-check-desc {
-    
-    
-    font-size: 12px;
-    line-height: 1.17;
-    
-    letter-spacing: 0.04em;
-   
-    color: var(--light-slate);
+
+.modal-form-check:checked + .modal-form-check-desc .user-privacy-wrap {
+    background-color: var(--ocean);
+    fill: var(--cloud);
+    border: none;
 }
-.modal-form-check-desc::before {
-    content: '';
-    display: block;
-    
-    cursor: pointer;
-
-    margin-right: 8px;
-
+.privacy-link {
+    color: var(--iris);
 }
 
-.modal-form-check:checked + .modal-form-check-desc::before {
-    background-image: url(../images/page-1/click.svg);
-}
-
-.modal-form-check:focus + .modal-form-check-desc::before {
-    outline: 1px solid #4D5AE5;
-}
-
+/* .....................BUTTON........................ */
 .modal-form-submit {
     display: block;
     min-width: 169px;
