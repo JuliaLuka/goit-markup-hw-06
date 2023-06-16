@@ -823,7 +823,7 @@ body {
     margin-bottom: 8px;
 }
 .modal-form-textarea-wrap {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .modal-form-field {
@@ -903,6 +903,10 @@ body {
 }
 
 /* .....................MODAL CHECK........................ */
+.modal-form-check-desc-wrap {
+    margin-bottom: 24px;
+}
+
 .modal-form-check-desc {
     display: flex;
     align-items: center;
