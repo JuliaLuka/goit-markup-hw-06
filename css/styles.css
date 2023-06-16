@@ -67,7 +67,7 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.hidden-title {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -820,7 +820,10 @@ body {
     color: var(--navy-blue);
 }
 .modal-form-wrap {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+}
+.modal-form-textarea-wrap {
+    margin-bottom: 24px;
 }
 
 .modal-form-field {
@@ -899,18 +902,16 @@ body {
     border-color: var(--iris);
 }
 
-
-.modal-form-check-desc {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-
-    color: var(--light-slate);
-}
 /* .....................MODAL CHECK........................ */
 .modal-form-check-desc {
     display: flex;
     align-items: center;
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    
+    color: var(--light-slate);
 }
 
 .user-privacy-wrap {
