@@ -772,7 +772,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 24px;
 
     position: absolute;
     top: 24px;
@@ -854,8 +853,6 @@ body {
     outline: transparent;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    border-color: var(--light-slate);
 }
 
 .modal-form-input:focus {
@@ -876,7 +873,7 @@ body {
     
     fill: var(--navy-blue);
 }
-
+/* .....................INPUT COMMENT................. */
 .modal-form-comment {
     resize: none;
     width: 100%;
@@ -932,12 +929,16 @@ body {
     fill: transparent;
 
 }
-
 .modal-form-check:checked + .modal-form-check-desc .user-privacy-wrap {
     background-color: var(--ocean);
     fill: var(--cloud);
     border: none;
 }
+/* Меняет цвет рамочки чекбокса при фокусе */
+.modal-form-check:focus + .modal-form-check-desc .user-privacy-wrap {
+    border-color: var(--ocean);
+}
+
 .privacy-link {
     color: var(--iris);
 }
